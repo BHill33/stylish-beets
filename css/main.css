@@ -1,9 +1,7 @@
 html {
-  font-family: PT Sans, bold, sans-serif;
-  line-height: 1.5;
-  font-size: 1.5rem;
-  background-color: #c9b5ab;
   box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
@@ -11,22 +9,74 @@ html {
 }
 
 h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
   color: #3f1622;
 }
 
-nav a {
+nav ol{
+  font-family: 'PT Sans', sans-serif;
   text-decoration: none;
+  font-size: 1.25rem;
+  list-style-type: none;
 }
 
 a,
 a:link {
   color: #8f2440;
-}
-
-a:visited {
-
+  text-decoration: none;
 }
 
 a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
 
+figcaption {
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 1.25rem
+}
+
+main + p {
+  font-weight: bold;
+}
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.chris {
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-family: PT Sans;
+  font-size: 1.125rem;
+  color: #3f1622;
+}
+
+body {
+  font-family: PT Serif, regular;
+  font-size: 1.25rem;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+}
+
+.serving {
+  font-style: italic;
+}
+
+.types {
+  list-style-type: circle;
+}
+
+dt {
+  font-weight: bold;
 }
