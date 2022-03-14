@@ -17,9 +17,10 @@ h1 {
 
 nav ol {
   font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
   text-decoration: none;
-  font-size: 1.25rem;
   list-style-type: none;
+  color: #8f2440;
 }
 
 a,
@@ -34,27 +35,28 @@ a:hover {
 }
 
 img {
+  align-items: center;
   width: 100%;
 }
 
 figcaption {
-  font-size: 1.25rem;
   font-style: italic;
   text-align: center;
+  font-size: 1.125rem;
 }
 
 .date {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-main + p {
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
-blockquote {
+main p {
+  font-size: 1.125
+}
+
+blockquote p {
+  font-family: "PT Serif", serif;
   font-style: italic;
-  font-size: 1.5rem;
 }
 
 .chris {
@@ -63,20 +65,16 @@ blockquote {
 
 h2 {
   font-family: "PT Sans";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   color: #3f1622;
-}
-
-body {
-  font-family: "PT Serif", regular;
-  font-size: 1.25rem;
-}
 
 .varieties {
   list-style-type: lower-greek;
+  font-style: italic;
 }
 
 .serving {
+  font-family: "PT Serif", serif;
   font-style: italic;
 }
 
@@ -86,4 +84,9 @@ body {
 
 dt {
   font-weight: bold;
+  font-size: 1.125rem;
+}
+
+dd {
+  font-size: 1.125rem;
 }
