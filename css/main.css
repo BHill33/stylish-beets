@@ -51,7 +51,7 @@ figcaption {
 }
 
 main p {
-  font-size: 1.125
+  font-size: 1.125rem;
 }
 
 blockquote p {
@@ -67,6 +67,7 @@ h2 {
   font-family: "PT Sans";
   font-size: 1.5rem;
   color: #3f1622;
+}
 
 .varieties {
   list-style-type: lower-greek;
