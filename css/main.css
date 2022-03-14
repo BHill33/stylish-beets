@@ -1,7 +1,8 @@
 html {
-  font-family: PT Sans, bold;
+  font-family: PT Sans, bold, sans-serif;
   line-height: 1.5;
   font-size: 1.5rem;
+  background-color: #c9b5ab;
   box-sizing: border-box;
 }
 
@@ -9,10 +10,23 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background-color: #c9b5ab
+h1 {
+  color: #3f1622;
 }
 
-h1 {
-  color: #3f1622
+nav a {
+  text-decoration: none;
+}
+
+a,
+a:link {
+  color: #8f2440;
+}
+
+a:visited {
+
+}
+
+a:hover {
+
 }
